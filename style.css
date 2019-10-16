@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-image: url("back2.jpg");
+       display: flex;
+     justify-content: space-between;
+      align-items: center;
+      height: 10vh;
+    }
+
+    h1{
+        color: rgb(255, 255, 255);
+        margin: 0% auto;
+        font-family: 'Righteous', cursive;
+    }
+
+    .container{
+        height: 90vh;
+        background-image: url("back.jpeg");
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        align-content: center;
+        font-family: 'Indie Flower', cursive;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .menu{
+        background-image: url("back2.jpg");
+        width: 15vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    ul{
+        color: aliceblue;
+        height: 100vh;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        }
+
+        li{
+            margin: 3px auto;
+        }
+    button{
+        color: antiquewhite;
+        border-radius: 0%;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    button:hover{
+        color: chartreuse;
+    }
+
+    img{
+        height: 300px;
+        width: 375px;
+    }
+    .perfil{
+        height: 175px;
+        width: 125px;   
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 20px 20px 0px 30px;
+
+    }
+
+    section{
+        height: 90vh;
+    }
+
+    h2{
+        color: maroon;
+        font-weight: 800;
+    }
+
+    p{
+        font-size: medium;
+        font-style: italic;
+    }
+
+    .masc{
+        height: 450px;
+    }
